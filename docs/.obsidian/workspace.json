@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requisitos Funcionais.md",
-                "mode": "source",
+                "file": "Requisitos Não Funcionais.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Requisitos Funcionais"
+              "title": "Requisitos Não Funcionais"
             }
           }
         ],
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Requisitos Funcionais.md",
+                "file": "Requisitos Não Funcionais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,8 +216,9 @@
   },
   "active": "a38a6f3da190ff94",
   "lastOpenFiles": [
-    "Unconfirmed 138849.crdownload",
+    "Requisitos Funcionais.md",
     "Requisitos Não Funcionais.md",
-    "Requisitos Funcionais.md"
+    "Unconfirmed 927930.crdownload",
+    "Unconfirmed 138849.crdownload"
   ]
 }
