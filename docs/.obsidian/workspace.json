@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requisitos Funcionais.md",
+                "file": "Requisitos Não Funcionais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Requisitos Funcionais"
+              "title": "Requisitos Não Funcionais"
             }
           }
         ]
@@ -201,13 +201,13 @@
   },
   "active": "d35702c76ec49ff8",
   "lastOpenFiles": [
-    "Unconfirmed 320330.crdownload",
     "Requisitos Funcionais.md",
+    "Requisitos Não Funcionais.md",
+    "Unconfirmed 320330.crdownload",
     "PPSI-Apresentacao.pdf",
     "A fazer.md",
     "Unconfirmed 522116.crdownload",
     "Unconfirmed 599435.crdownload",
-    "Requisitos Não Funcionais.md",
     "Unconfirmed 927930.crdownload",
     "Unconfirmed 138849.crdownload"
   ]

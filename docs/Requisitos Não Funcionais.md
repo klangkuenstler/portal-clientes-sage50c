@@ -2,14 +2,9 @@
 
 ## Documentação de Requisitos Não Funcionais
 
-**Projeto:** Portal do Cliente integrado com Sage 50c  
-**Empresa:** Megactec  
-**Versão:** 0.1 — Documento de trabalho  
-**Data:** 07/10/2026
+**Estado:** Proposta de âmbito para o MVP
 
----
-
-## 1. Objetivo do documento
+## 1. Objetivo
 
 Este documento define os **requisitos não funcionais (RNF)** do Portal do Cliente da Megactec.
 
