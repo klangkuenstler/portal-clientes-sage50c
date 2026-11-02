@@ -5,6 +5,7 @@ import AppIcon from '@/components/ui/AppIcon.vue'
 
 const demo = useDemoStore()
 const route = useRoute()
+const logoUrl = `${import.meta.env.BASE_URL}logo.png`
 const navigation = [
   { to: '/', label: 'Visão geral', icon: 'grid' },
   { to: '/reparacoes', label: 'Reparações', icon: 'tool' },
@@ -23,10 +24,8 @@ const navigation = [
       class="fixed inset-y-0 left-0 z-20 hidden w-60 flex-col border-r border-line bg-white px-5 py-8 lg:flex"
     >
       <RouterLink to="/" aria-label="Megactec — início" class="px-3">
-        <span class="text-[29px] font-bold tracking-[-1.5px] text-ink"
-          >megactec<span class="text-primary">.</span></span
-        >
-        <span class="mt-1 block text-[10px] font-medium uppercase tracking-[0.2em] text-muted"
+        <img :src="logoUrl" alt="Megactec" class="h-auto w-40" />
+        <span class="mt-3 block text-[10px] font-medium uppercase tracking-[0.2em] text-muted"
           >Portal do cliente</span
         >
       </RouterLink>
@@ -86,9 +85,9 @@ const navigation = [
         <div
           class="mx-auto flex min-h-20 max-w-7xl flex-wrap items-center justify-between gap-3 py-4"
         >
-          <RouterLink to="/" class="text-xl font-bold tracking-tight text-ink lg:hidden"
-            >megactec<span class="text-primary">.</span></RouterLink
-          >
+          <RouterLink to="/" aria-label="Megactec — início" class="lg:hidden">
+            <img :src="logoUrl" alt="Megactec" class="h-auto w-28" />
+          </RouterLink>
           <p class="hidden text-sm text-muted lg:block">
             Portal do cliente <span class="mx-3 text-line" aria-hidden="true">/</span>
             <span class="text-ink">{{ route.meta.title }}</span>
