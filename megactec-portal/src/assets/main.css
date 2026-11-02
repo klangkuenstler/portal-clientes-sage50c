@@ -1,9 +1,65 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
 
 @theme {
   --color-primary: #ff9017;
   --color-primary-hover: #e67e0e;
+  --color-brand-ink: #9b4700;
+  --color-canvas: #f7f8fa;
+  --color-surface-muted: #f4f5f7;
+  --color-ink: #20252b;
+  --color-body: #383e47;
+  --color-muted: #626b77;
+  --color-line: #e6e8ec;
+  --font-sans: 'Outfit', sans-serif;
+}
 
-  --font-sans: "Outfit", sans-serif;
+@layer base {
+  body {
+    @apply m-0 min-w-80 bg-canvas font-sans antialiased;
+  }
+  button,
+  summary,
+  select {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand-ink);
+    outline-offset: 4px;
+  }
+  ::selection {
+    background: #ffdfbc;
+    color: #20252b;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-2xl border border-line bg-white;
+  }
+  .button-primary {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:bg-primary-hover disabled:cursor-wait disabled:opacity-60;
+  }
+  .button-secondary {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-line bg-white px-4 py-2.5 text-sm font-medium text-body transition-colors hover:bg-surface-muted disabled:cursor-wait disabled:opacity-60;
+  }
+  .field {
+    @apply min-h-11 w-full rounded-xl border border-line bg-white px-3 py-2.5 text-sm text-ink;
+  }
+  .nav-item {
+    @apply flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-muted transition-colors hover:bg-surface-muted hover:text-ink;
+  }
+  .nav-item-active {
+    @apply bg-orange-50 text-brand-ink hover:bg-orange-50 hover:text-brand-ink;
+  }
+  .eyebrow {
+    @apply text-[11px] font-semibold uppercase tracking-[0.16em] text-muted;
+  }
+  .page-title {
+    @apply text-3xl font-semibold tracking-tight text-ink sm:text-[34px];
+  }
 }
