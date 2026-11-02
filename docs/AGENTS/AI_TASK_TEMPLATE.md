@@ -6,7 +6,7 @@ Copy/adapt this template when assigning work to a coding model.
 [One concrete feature or bug fix]
 
 ## Context
-Read `AGENTS.md` and `docs/PROJECT_CONTEXT.md`, `docs/REQUIREMENTS.md`, `docs/ARCHITECTURE.md`, `docs/DEVELOPMENT.md`. Inspect the existing project before editing.
+Read `AGENTS.md` and `docs/AGENTS/PROJECT_CONTEXT.md`, `docs/AGENTS/REQUIREMENTS.md`, `docs/AGENTS/ARCHITECTURE.md`, `docs/AGENTS/DEVELOPMENT.md`. Inspect the existing project before editing.
 
 ## Scope
 - In scope: [explicit UI/behaviour]

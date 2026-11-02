@@ -1,6 +1,6 @@
 # OpenCode instructions — Portal do Cliente Megactec
 
-Read `docs/PROJECT_CONTEXT.md`, `docs/REQUIREMENTS.md`, `docs/ARCHITECTURE.md`, and `docs/DEVELOPMENT.md` before substantial changes. Treat these as project guidance; inspect the actual repository before making assumptions. If docs conflict with code, identify the conflict and ask before destructive changes.
+Read `docs/AGENTS/PROJECT_CONTEXT.md`, `docs/AGENTS/REQUIREMENTS.md`, `docs/AGENTS/ARCHITECTURE.md`, and `docs/AGENTS/DEVELOPMENT.md` before substantial changes. Treat these as project guidance; inspect the actual repository before making assumptions. If docs conflict with code, identify the conflict and ask before destructive changes.
 
 ## Mission and scope
 Build a customer-facing portal for Megactec, an appliance repair business using Sage 50c. Its primary value is letting customers track repair status without phoning the company. This is a small academic project developed by two people. Prioritise a reliable, demonstrable MVP over feature breadth.

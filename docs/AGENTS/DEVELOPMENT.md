@@ -2,7 +2,7 @@
 
 ## First actions for an agent
 1. Inspect repository structure and `package.json`; do not assume files or dependencies exist.
-2. Read `AGENTS.md` and the other files in `docs/`.
+2. Read `AGENTS.md` and the guidance files in `docs/AGENTS/`.
 3. Confirm which app directory contains the Vue project (the project may be in `megactec-portal/` beneath repository root).
 4. Prefer incremental, testable changes with a concise implementation plan.
 

@@ -34,7 +34,7 @@ For optional-field examples, open the oven repair; for a repair without public n
 - `src/stores/demo.ts`: session-only scenario selection.
 - `src/composables/useResource.ts`: loading/error handling and stale-request protection.
 
-Dates are transported as ISO timestamps and displayed in `pt-PT`, using `Europe/Lisbon`. A future backend must map actual Sage states, authorise every resource and return only explicitly public notes. No backend routes or Sage schema are assumed here. See `../docs/ARCHITECTURE.md`.
+Dates are transported as ISO timestamps and displayed in `pt-PT`, using `Europe/Lisbon`. A future backend must map actual Sage states, authorise every resource and return only explicitly public notes. No backend routes or Sage schema are assumed here. See `../docs/AGENTS/ARCHITECTURE.md`.
 
 ## Checks
 
