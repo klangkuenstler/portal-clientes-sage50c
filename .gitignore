@@ -2,3 +2,7 @@
 
 /docs/.obsidian/workspace.json
 /docs/.obsidian/plugins/obsidian-git/data.json
+
+# Ficheiros de contexto e instruções para agentes de IA
+/AGENTS.md
+/docs/AGENTS/
